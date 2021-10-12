@@ -1,11 +1,36 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  background: linear-gradient(
+    180deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.top-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-left {
+  font-size: 32px;
+  margin-right: 8px;
+}
+
+.bottom-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-right {
+  font-size: 32px;
+  margin-right: 8px;
 }
 
 .main {
